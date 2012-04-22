@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html style='height: 100%; width: 100%;'>
+  <head>
+  <title>Offline Maps Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+	<meta charset="utf-8">
+
+	<!-- CSS -->
+	<link rel='stylesheet' href='libs/leaflet.css'/>
+	<link rel='stylesheet' href='css/core.css'/>
+
+	<!-- WEINRE -->
+	<script src='http://localhost:8080/target/target-script-min.js#anonymous'></script>
+
+	<!-- JAVASCRIPT -->
+	<script type="text/javascript" src="cordova-1.5.0.js"></script>
+	<script type='text/javascript' src='js/sqlite_plugin.js'></script>
+	<script type='text/javascript' src='libs/leaflet.js'></script>
+	<script type='text/javascript' src='js/TileLayer.MBTiles.js'></script>
+	<script src='js/core.js'></script>
+  </head>
+  <body onload="onBodyLoad()" style=''>
+  		<span id='message'></span>
+		<div id='map'></div>
+  </body>
+</html>

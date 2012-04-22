@@ -21,9 +21,13 @@
 	<key>OpenAllWhitelistURLsInWebView</key>
 	<false/>
 	<key>ExternalHosts</key>
-	<array/>
+	<array>
+		<string>*</string>
+	</array>
 	<key>Plugins</key>
 	<dict>
+		<key>SQLitePlugin</key>
+		<string>SQLitePlugin</string>
 		<key>org.apache.cordova.accelerometer</key>
 		<string>CDVAccelerometer</string>
 		<key>org.apache.cordova.camera</key>
